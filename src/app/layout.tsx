@@ -1,5 +1,3 @@
-// src/app/layout.tsx
-
 import type { Metadata } from "next";
 import { Bricolage_Grotesque } from "next/font/google";
 import BackgroundImage from "@/components/BackgroundImage";
@@ -22,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${bricolage_grotesque_init.className} antialiased h-screen`}
       >

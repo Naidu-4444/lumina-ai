@@ -1,5 +1,6 @@
 import Appbar from "@/components/Appbar";
 import Hero from "@/components/Hero";
+import Main from "@/components/Main";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       </div>
       <div className="mt-36 max-sm:mt-24 gap-8 max-sm:gap-6 flex flex-col items-center min-h-[58vh]">
         <Hero />
+        <Main />
       </div>
     </div>
   );
